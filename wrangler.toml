@@ -1,4 +1,4 @@
-name = "nodewarden"
+name = "nodewarden-git"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
@@ -17,6 +17,7 @@ crons = [ "*/5 * * * *" ]
 [[d1_databases]]
 binding = "DB"
 database_name = "nodewarden-db"
+database_id = "b31fdd49-58ef-4222-b056-283d65b33deb"
 
 [[durable_objects.bindings]]
 name = "NOTIFICATIONS_HUB"
